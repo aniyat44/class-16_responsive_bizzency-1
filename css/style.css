@@ -1,0 +1,61 @@
+/* Reset css start */
+h1,h2,h3,h4,h5,h6,ul,ol,li{
+    margin: 0;
+}
+a,a:hover{
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+ol,ul{
+    list-style-type: none;
+}
+/* Reset css end */
+
+
+
+/* Top Bar css start */
+#top_bar{
+    background-color: #0f2f44;
+}
+#top_bar p{
+    padding: 19px 0;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 24px;
+    color: #ffff;
+    margin: 0;
+}
+/* Top Bar css end */
+
+
+/* Nav section css start */
+nav ul li a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 40px 20px;
+    transition: .5s;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+nav ul li button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+nav ul li button:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+
+/* Nav section css end */
